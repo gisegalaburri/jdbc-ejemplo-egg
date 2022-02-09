@@ -93,7 +93,7 @@ public class UsuarioService {
     public Usuario buscarUsuarioPorCorreoElectronico(String correoElectronico) throws Exception {
 
         try {
-
+            // Estoy cambiando esto
             //Validamos
             if (correoElectronico == null || correoElectronico.trim().isEmpty()) {
                 throw new Exception("Debe indicar el correo electrónico");
